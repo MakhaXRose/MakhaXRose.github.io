@@ -1,0 +1,30 @@
+footer {
+    padding: 50px;
+    margin-left: 0;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 0;
+    justify-content: space-between; 
+    width: 100%;
+    background-color: #FFFFFF;
+    color: lightpink;  
+    height: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif {
+        width: 700px;
+    }
+
+#contact {
+    display: flex;
+    height: 23px;
+}
+
+
+
+#contact div{
+    border: 2px solid blue;
+    padding: 2px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
