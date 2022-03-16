@@ -1,0 +1,43 @@
+h2{
+    text-align: center;
+    color: blue;
+}
+form{
+    background-color: #fafafa;
+    padding: 30px;
+    width: 60px;
+    margin-left: auto;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+input,select,option,textarea{
+    background-color: #fff3f3;
+}
+input,textarea,select{
+    padding: 3px;
+    border: 1px;
+    border-style: solid;
+    width: 200px;
+    border-radius: 5px;
+}
+input[type="submit"],input[type="reset"]{
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 10px 10px red;
+    cursor: pointer;
+}
+:required{
+    border-color: #f80;
+}
+:invalid{
+    background: #fee;
+    border-color: red;
+    border-width: 3px;
+}
+:valid{
+    background-color: cornsilk;
+    border-top: #5a5;
+}
+input[type="radio"],input[type="checkbox"]
